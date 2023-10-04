@@ -1,0 +1,25 @@
+working directory --> Staging area --> Local Repo
+git confir --global user.name "Ashok"
+git config --global user.email "ashok/kgp@gmail.com"
+
+git init .
+
+git add filename/ git add --all/ git add .
+
+git commit -m " Initial commit"
+
+git status
+
+git log
+
+git log --name-only --oneline ( This command to see all file commited in the local repository)
+
+git diff ( compare between working directory and staging)
+
+git diff --staged ( compare between staging and local repo)
+
+git diff HEAD ( compare between working directory and local repo)
+
+ git diff 14ca6429ef4c954acb55fedf4cc81b6b6042f236 9c9075d8d2902b6b46566a2646e69af3182de6a0 
+( compare between two commits)
+
