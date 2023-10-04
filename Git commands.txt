@@ -21,5 +21,8 @@ git diff --staged ( compare between staging and local repo)
 git diff HEAD ( compare between working directory and local repo)
 
  git diff 14ca6429ef4c954acb55fedf4cc81b6b6042f236 9c9075d8d2902b6b46566a2646e69af3182de6a0 
-( compare between two commits)
+(compare between two commits)
 
+git push https://github.com/rashok5912/ashok_repo.git
+
+git pull
